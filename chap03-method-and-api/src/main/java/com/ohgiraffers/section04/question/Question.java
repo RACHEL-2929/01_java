@@ -13,6 +13,8 @@ public class Question {
      */
 
     public static void main(String[] args) {
+        //다른 버전으로 만들어보자면
+        //int randomNumber2 = (int)(Math.random()*201-100);
         int randomNumber = new Random().nextInt(201)-100;
         QuestionTest qt = new QuestionTest();
         System.out.println("난수는 "+randomNumber + "입니다");
