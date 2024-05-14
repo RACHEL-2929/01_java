@@ -37,9 +37,10 @@ public class Application03 {
 
         //2. clone() 이용한 복사 - 원래 배열과 똑같은 길이의 배열로만 복사됨
         System.out.println("-----------clone-----------------");
-
         int[] copyArr2 = originArr.clone();
         print(copyArr2);
+
+
 
         //3. arrayCopy() 를 이용한 복사
         int[] copyArr3 = new int[10];
@@ -51,7 +52,6 @@ public class Application03 {
 
         //4. copyOf() 를 이용한 복사
         System.out.println("--------------copyOf---------------");
-
         int[] copyArr4 = Arrays.copyOf(originArr, 10);
         //복사할 배열, copyArr4를 얼만큼의 크기로 만들어?=> 오리진보다 크면 나머지 0으로 초기화됨
         print(copyArr4);

@@ -25,8 +25,5 @@ public class Application02 {
             System.out.println(iarr[i] + " ");
 
         }
-
-
-
     }
 }
