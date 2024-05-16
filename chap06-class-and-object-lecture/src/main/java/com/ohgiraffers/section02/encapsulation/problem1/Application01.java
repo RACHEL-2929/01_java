@@ -34,8 +34,11 @@ public class Application01 {
 
         //4번 몬스터 생성
         Monster monster4 = new Monster();
-//        monster4.na
+        monster4.name = "프랑켄슈타인";
+        monster4.setHp(-1000);
 
+        System.out.println("monster4 = " + monster4.name);
+        System.out.println("monster4.hp = " + monster4.hp);
 
 
 
