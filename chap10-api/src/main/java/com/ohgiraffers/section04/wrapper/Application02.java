@@ -14,8 +14,6 @@ public class Application02 {
         boolean bl = Boolean.parseBoolean("true");
 
 
-
-
         //Char는 parsing을 제공하지 않는다.
         char c = "abc".charAt(0);
 
