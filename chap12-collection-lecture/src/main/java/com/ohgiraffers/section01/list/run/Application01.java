@@ -70,6 +70,7 @@ public class Application01 {
         list.add(123);//오토박싱
         list.add(45.67);//오토박싱
         list.add(new Date());
+        //Boolean형을 넣을 거면 Boolean.valueOf(true)로 박싱을 해줘야 함
 
 
         System.out.println("list : " + list);
@@ -93,14 +94,14 @@ public class Application01 {
         System.out.println("list = " + list);
 
         //수정 가능
-        list.set(1, Boolean.valueOf(true));
+        list.set(1, Boolean.valueOf(true));//박싱해줘야함
         System.out.println("list = " + list);
 
 
 
         List<String> stringList = new ArrayList<>();
         stringList.add("apple");
-        // stringList.add(123);
+        // stringList.add(123); 문자열로 선언된 List 인데 정수형을 넣어서 오류가 난다
         stringList.add("banana");
         stringList.add("orange");
         stringList.add("mango");
