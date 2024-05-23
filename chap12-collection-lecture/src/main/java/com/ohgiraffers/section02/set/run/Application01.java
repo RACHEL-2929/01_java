@@ -37,10 +37,12 @@ public class Application01 {
 
         Object[] arr = hset.toArray();//Array 로 바꾸기
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(i + " : " + arr[i]);
+            System.out.print(i + " : " + arr[i]);
         }
 
-        Iterator<String> iter = hset.iterator();
+
+
+        Iterator<String> iter = hset.iterator();//반복자 사용하기
 
         while (iter.hasNext()){
             System.out.println(iter.next());
