@@ -1,6 +1,7 @@
 package main.java.com.ohgiraffers.section01.test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class test2 {
     /*
@@ -15,13 +16,21 @@ public class test2 {
     * */
 
 
-    private ArrayList<Integer> numbers;
+    private List<Integer> numbers;
 
     public test2() {
         numbers = new ArrayList();
     }
 
-    public void addNum(){
-
+    public void addNum(int number){
+        //List & Set은 add, Map은 put
+        numbers.add(number);
     }
+
+    public void remove(int i){
+        //List는  remove,Set은 인덱스 x => clear(), Map은 remove
+        numbers.remove(i);
+    }
+
+    public
 }
