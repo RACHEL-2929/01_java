@@ -9,6 +9,7 @@ public class Application {
         System.out.println(admin);
         System.out.println(admin.getNameToLowerCase());
 
+        ///----------------------------------------------
 
         UserRole2 consumer = UserRole2.CONSUMER;
         System.out.println(consumer.ordinal() + " " + consumer.name() + " " + consumer.getDescription());
