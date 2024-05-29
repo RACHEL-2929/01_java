@@ -14,7 +14,7 @@ public class Application01 {
 
         Connection con = getConnection();
 
-        //쿼리문을 저장하고 실행하는 인터페이스
+        // 쿼리문을 저장하고 실행하는 인터페이스
         Statement stmt = null;
 
         // select 결과 집합을 받아오는 인터페이스
