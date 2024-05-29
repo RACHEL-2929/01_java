@@ -13,6 +13,7 @@ public class JDBCTemplate {
         Properties prop = new Properties();
 
         try {
+            // 어디서 찾을지 경로 정해주기
             prop.load(new FileReader("src/main/java/com/ohgiraffers/config/connection-info.properties"));
 
             String url = prop.getProperty("url");

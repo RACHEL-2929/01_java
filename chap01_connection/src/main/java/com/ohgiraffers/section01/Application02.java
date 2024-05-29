@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 public class Application02 {
     public static void main(String[] args) {
+        //문자열로 받아도 가능하다.
         String url = "jdbc:mysql://localhost:3306/employee";
         String user = "songpa";
         String password = "songpa";
